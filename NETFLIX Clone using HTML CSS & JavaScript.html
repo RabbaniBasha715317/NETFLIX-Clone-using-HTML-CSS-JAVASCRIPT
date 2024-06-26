@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Netflix Clone</title>
+    <link href="images/favicon.ico" rel="icon" type="image/x-icon" />
+    <link rel="stylesheet" href="NETFLIX Clone using HTML CSS & JavaScript.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:wght@300;400;500;700;900&family=Sen:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="NETFLIX Clone using HTML CSS & JavaScript.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <div class="navbar">
+      <div class="navbar-container">
+        <div class="logo-container">
+          <img src="https://th.bing.com/th/id/R.4d30a09d38e6dfe3feaa31920a680108?rik=GnWkgmKvj5nwNg&riu=http%3a%2f%2fwww.cultjer.com%2fimg%2fug_photo%2f2016_09%2f76248820160921034356.jpg&ehk=grD%2fdqb%2b43FMvO3KHmAdPwgUvOikuZkwrJQwMPdCHUM%3d&risl=&pid=ImgRaw&r=0" class="logo" />
+        </div>
+        <div class="menu-container">
+          <ul class="menu-list">
+            <li class="menu-list-item active">Home</li>
+            <li class="menu-list-item">Movies</li>
+            <li class="menu-list-item">Series</li>
+            <li class="menu-list-item">Popular</li>
+            <li class="menu-list-item">Trends</li>
+          </ul>
+        </div>
+        <div class="profile-container">
+          <img src="https://static.vecteezy.com/system/resources/previews/024/588/210/non_2x/happy-kids-at-the-hill-concept-free-vector.jpg" class="profile-picture" />
+          <div class="profile-text-container">
+            <span class="profile-text">Profile</span>
+            <i class="fa-solid fa-caret-down"></i>
+          </div>
+          <div class="toggle">
+            <i class="fa-solid fa-moon toggle-icon"></i>
+            <i class="fa-solid fa-lightbulb toggle-icon"></i>
+            <div class="toggle-ball"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sidebar Section -->
+    <div class="sidebar">
+      <i class="left-menu-icon fas fa-search"></i>
+      <i class="left-menu-icon fas fa-home"></i>
+      <i class="left-menu-icon fas fa-users"></i>
+      <i class="left-menu-icon fas fa-bookmark"></i>
+      <i class="left-menu-icon fas fa-tv"></i>
+      <i class="left-menu-icon fas fa-hourglass-start"></i>
+      <i class="left-menu-icon fas fa-shopping-cart"></i>
+    </div>
+
+    <!-- Banner Section -->
+    <div class="container">
+      <div class="content-container">
+        <div
+          class="featured-content"
+          style="
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #151515),
+              url(https://images.hdqwalls.com/download/4k-money-heist-season-4-netflix-aw-1366x768.jpg);
+            background-size: cover;
+          "
+        >
+          <h1 class="featured-title">Unlimited movies, TV shows and more.</h1>
+          <p class="featured-desc">Watch anywhere. Cancel anytime.</p>
+          <button class="featured-button">
+            GET STARTED <i class="fa-solid fa-angle-right btn-icon"></i>
+          </button>
+        </div>
+
+        <!-- Featured Movie Section  -->
+        <div class="movie-list-container">
+          <h1 class="movie-list-title">NEW RELEASES</h1>
+          <div class="movie-list-wrapper">
+            <div class="movie-list">
+              <div class="movie-list-item">
+                <img src="https://wallpapercave.com/wp/wp3989401.jpg" class="movie-list-item-img" />
+                <span class="movie-list-item-title">Netflix Original</span>
+                <p class="movie-list-item-desc">
+                  Ready to watch? Enter your email to create or restart your
+                  membership.
+                </p>
+                <button class="movie-list-item-button">Watch Now</button>
+              </div>
+              <div class="movie-list-item">
+                <img src="https://www.hdwallpapers.in/download/n__t__rama_rao_jr__ram_charan_alia_bhatt_ajay_devgn_olivia_morris_hd_rrr-HD.jpg" class="movie-list-item-img" />
+                <span class="movie-list-item-title">Netflix Original</span>
+                <p class="movie-list-item-desc">
+                  Ready to watch? Enter your email to create or restart your
+                  membership.
+                </p>
+                <button class="movie-list-item-button">Watch Now</button>
+              </div>
+              <div class="movie-list-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuP0Vhv-V5AEwnolsRCCZxfc4riIpOOMJZDbVEbroaU9uWRp8PZujfk6xpCWDWpK5V6ks&usqp=CAU"/>
+                <span class="movie-list-item-title">Netflix Original</span>
+                <p class="movie-list-item-desc">
+                  Ready to watch? Enter your email to create or restart your
+                  membership.
+                </p>
+                <button class="movie-list-item-button">Watch Now</button>
+              </div>
+              <div class="movie-list-item">
+                <img src="https://th.bing.com/th/id/R.c2c113d0707954ddb1cd5edd31c5e12b?rik=XgiQVDkbBF4Unw&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f01%2fHarry-Potter-7-Wallpapers-HD1.jpg&ehk=H7BOUeNL9N%2fw8b1%2bdg2oE7cP6S7hLerkJuEiakkqz%2b0%3d&risl=&pid=ImgRaw&r=0"
+                 class="movie-list-item-img" />
+                <span class="movie-list-item-title">Netflix Original</span>
+                <p class="movie-list-item-desc">
+                  Ready to watch? Enter your email to create or restart your
+                  membership.
+                </p>
+                <button class="movie-list-item-button">Watch Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Featured Movie Section  -->
+        <div class="movie-list-container">
+          <h1 class="movie-list-title">TRENDING NOW</h1>
+          <div class="movie-list-wrapper">
+            <div class="movie-list">
+              <div class="movie-list-item">
+                <img src="https://wallpapercave.com/wp/wp8404179.jpg" class="movie-list-item-img" />
+                <span class="movie-list-item-title">Netflix Original</span>
+                <p class="movie-list-item-desc">
+                  Ready to watch? Enter your email to create or restart your
+                  membership.
+                </p>
+                <button class="movie-list-item-button">Watch Now</button>
+              </div>
+              <div class="movie-list-item">
+                <img src="https://images.hdqwalls.com/download/2023-dungeons-and-dragons-honor-among-thieves-8k-r3-1920x1200.jpg" class="movie-list-item-img" />
+                <span class="movie-list-item-title">Netflix Original</span>
+                <p class="movie-list-item-desc">
+                  Ready to watch? Enter your email to create or restart your
+                  membership.
+                </p>
+                <button class="movie-list-item-button">Watch Now</button>
+              </div>
+              <div class="movie-list-item">
+                <img src="https://www.screengeek.net/wp-content/uploads/2018/10/avengers-4-8.jpg"
+                 class="movie-list-item-img" />
+                <span class="movie-list-item-title">Netflix Original</span>
+                <p class="movie-list-item-desc">
+                  Ready to watch? Enter your email to create or restart your
+                  membership.
+                </p>
+                <button class="movie-list-item-button">Watch Now</button>
+              </div>
+              <div class="movie-list-item">
+                <img src="https://c4.wallpaperflare.com/wallpaper/923/620/32/interstellar-movie-wallpaper-preview.jpg" class="movie-list-item-img" />
+                <span class="movie-list-item-title">Netflix Original</span>
+                <p class="movie-list-item-desc">
+                  Ready to watch? Enter your email to create or restart your
+                  membership.
+                </p>
+                <button class="movie-list-item-button">Watch Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Banner Section  -->
+        <div
+          class="featured-content"
+          style="
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #151515),
+              url(https://e0.pxfuel.com/wallpapers/764/372/desktop-wallpaper-truehorrornet-retrospective-trick-r-treat.jpg);
+            background-size: cover;
+          "
+        >
+          <h1 class="featured-title">Download your shows to watch offline.</h1>
+          <p class="featured-desc">Save your favourites easily to watch.</p>
+          <button class="featured-button">
+            BINGE WATCH <i class="fa-solid fa-angle-right btn-icon"></i>
+          </button>
+        </div>
+
+        <!-- Featured Movie Section  -->
+        <div class="movie-list-container">
+          <h1 class="movie-list-title">CONTINUE WATCHING</h1>
+          <div class="movie-list-wrapper">
+            <div class="movie-list">
+              <div class="movie-list-item">
+                <img src="https://wallpaperaccess.com/full/241654.jpg"
+                 class="movie-list-item-img" />
+                <span class="movie-list-item-title">Netflix Original</span>
+                <p class="movie-list-item-desc">
+                  Ready to watch? Enter your email to create or restart your
+                  membership.
+                </p>
+                <button class="movie-list-item-button">Watch Now</button>
+              </div>
+              <div class="movie-list-item">
+                <img src="https://www.transcontinentaltimes.com/wp-content/uploads/2023/07/project-k-new-poster-1.jpg" class="movie-list-item-img" />
+                <span class="movie-list-item-title">Netflix Original</span>
+                <p class="movie-list-item-desc">
+                  Ready to watch? Enter your email to create or restart your
+                  membership.
+                </p>
+                <button class="movie-list-item-button">Watch Now</button>
+              </div>
+              <div class="movie-list-item">
+                <img src="https://wallpapercave.com/wp/wp5698863.jpg" class="movie-list-item-img" />
+                <span class="movie-list-item-title">Netflix Original</span>
+                <p class="movie-list-item-desc">
+                  Ready to watch? Enter your email to create or restart your
+                  membership.
+                </p>
+                <button class="movie-list-item-button">Watch Now</button>
+              </div>
+              <div class="movie-list-item">
+                <img src="https://cdn.wallpapersafari.com/39/11/E6fFBs.jpg" class="movie-list-item-img" />
+                <span class="movie-list-item-title">Netflix Original</span>
+                <p class="movie-list-item-desc">
+                  Ready to watch? Enter your email to create or restart your
+                  membership.
+                </p>
+                <button class="movie-list-item-button">Watch Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Linked JavaScript File  -->
+    <script src="NETFLIX Clone using HTML CSS & JavaScript.js"></script>
+  </body>
+</html>
